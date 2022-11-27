@@ -1,0 +1,28 @@
+.header {
+  color: white !important;
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px black;
+  background-color: lightgray !important;
+}
+
+.logo {
+  background-color: lightgray !important;
+  padding: 10%;
+}
+
+.layout {
+  color: black;
+  background-color: white;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.sider {
+  background-color: white !important;
+}
+
+.content {
+  color: black;
+}

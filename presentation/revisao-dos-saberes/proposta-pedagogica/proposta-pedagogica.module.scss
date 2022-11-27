@@ -1,0 +1,54 @@
+.orangeBack {
+  background-color: #f49425 !important;
+  padding: 1%;
+}
+
+.card {
+  background-color: #f8d68f !important;
+  color: #462f8c !important;
+  border-color: #f8d68f;
+  font-size: xx-large;
+  position: relative;
+}
+.card p {
+  font-weight: bolder;
+}
+
+.cardContainer {
+  max-width: 50%;
+  background-color: rgba($color: #000000, $alpha: 0.0);
+  border: 0;
+}
+
+.cardContainer::before {
+  content: '';
+
+  position: absolute;
+  background-color: #6b58a0;
+  box-shadow: 2px 2px 8px #6b58a0;
+
+  width: 90%;
+  height: 78%;
+  left: 5%;
+  top: 10%;
+  border-radius: 20px;
+  transform: rotateZ(-4deg);
+}
+
+.cardItems {
+  color: #462f8c !important;
+  border: 4px solid #fed48a !important;
+  padding: 50px;
+}
+
+.cardItems h1{
+  font-size: x-large;
+}
+
+.cardItems li {
+  font-size: x-large;
+}
+
+.cardItems p {
+  font-size: x-large;
+}

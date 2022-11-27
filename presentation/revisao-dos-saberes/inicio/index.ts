@@ -1,0 +1,1 @@
+export { default as RevisaoDosSaberesHome } from './revisao-dos-saberes'

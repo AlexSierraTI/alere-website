@@ -1,0 +1,1 @@
+export { default as LivroDoEstudante } from './livro-do-estudante'
