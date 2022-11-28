@@ -18,7 +18,7 @@ const PoliticaDePrivacidade: React.FC = () => {
   const politicaDeCookies = { href: '#', link: '(link para a Política de Cookies)' }
   const nomeEncarregado = 'Nome do Encarregado'
   const cpfEncarregado = 'CPF do Encarregado'
-  const emailEncarregado = 'Email do Encarregado'
+  const emailEncarregado = 'tecnologia@alereeditora.com.br'
   const dataUltimaAtualizacao = '27/11/2022'
   
   //

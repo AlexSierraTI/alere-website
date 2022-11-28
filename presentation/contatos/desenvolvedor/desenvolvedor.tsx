@@ -15,7 +15,7 @@ const Desenvolvedor: React.FC = () => {
                   <PhoneOutlined />
                 </Col>
                 <Col>
-                  ?? ???? ????
+                  11 93801-4520
                 </Col>
               </Row>
               <Row justify='start' align='top' gutter={[5, 20]}>
@@ -23,7 +23,7 @@ const Desenvolvedor: React.FC = () => {
                   <MailOutlined />
                 </Col>
                 <Col>
-                  <a href='mailTo:desenvolvedor@dev.com.br'>desenvolvedor@dev.com.br</a>
+                  <a href='mailTo:tecnologia@alereeditora.com.br'>tecnologia@alereeditora.com.br</a>
                 </Col>
               </Row>
             </Col>
