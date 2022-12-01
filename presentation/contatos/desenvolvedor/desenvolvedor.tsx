@@ -15,7 +15,7 @@ const Desenvolvedor: React.FC = () => {
                   <PhoneOutlined />
                 </Col>
                 <Col>
-                  11 93801-4520
+                  (11) 93801-4520
                 </Col>
               </Row>
               <Row justify='start' align='top' gutter={[5, 20]}>

@@ -23,7 +23,7 @@ const Contato: React.FC = () => {
                   <PhoneOutlined />
                 </Col>
                 <Col>
-                  +55 11 2094-5799
+                  +55 (11) 2094-5799
                 </Col>
               </Row>
               <Row justify='start' align='top' gutter={[5, 20]}>
