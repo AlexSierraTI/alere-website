@@ -4,25 +4,18 @@ import { Row, Col } from 'antd'
 
 const PoliticaDePrivacidade: React.FC = () => {
   // NOTE: Aqui são preenchidos os dados váriaveis da política de privacidade
-  const nomeEmpresarial = '(nome empresarial)'
-  const nomeEmpresarialSimplificado = '(nome empresarial simplificado)'
-  const cnpj = '(nº do CNPJ)'
-  const dadosPessoais = ['Dado e finalidade', 'Dado e finalidade', 'Dado e finalidade', 'Dado e finalidade']
-  const dadosPessoaisAutomaticos = ['Dado e finalidade', 'Dado e finalidade', 'Dado e finalidade', 'Dado e finalidade']
-  const comoColeta = ['Como se coleta', 'Como se coleta', 'Como se coleta', 'Como se coleta']
-  const meiosDeContato = ['Meio de contato', 'Meio de contato']
-  const nomeCompletoParceiroEmpresarial = '(nome completo ou empresarial do parceiro comercial)'
-  const cpfCnpjParceiroComercial = '(número do CPF Ou CNPJ do parceiro comercial)'
-  const politicaDePrivacidadeDoParceiroComercial = { href: '#', link: '(link para a política de privacidade do parceiro comercial)' }
-  const descricaoCookiesUtilizados = '(descrição dos tipos de Cookies utilizados pelo site)'
-  const politicaDeCookies = { href: '#', link: '(link para a Política de Cookies)' }
-  const nomeEncarregado = 'Nome do Encarregado'
-  const cpfEncarregado = 'CPF do Encarregado'
+  const nomeEmpresarial = 'Alere Distribuição de Produtos e Serviços Educacionais LTDA'
+  const nomeEmpresarialSimplificado = 'Alere Editora'
+  const cnpj = '29.884.158/0001-53'
+  const dadosPessoais = ['Nome da criança (para que os professores e gestores escolares possam acompanhar o aprendizado e engajamento)', 'Escola, série e turma da criança (para direcionar o conteúdo correto e associar à professora correta)']
+  const dadosPessoaisAutomaticos = ['Páginas dos livros digitais visualizadas', 'Acertos e erros nas questões dos livros gamificados', 'Finalizações de livros', 'Informações técnicas georeferenciadas do dispositivo que está acessando']
+  const comoColeta = ['A escola ou rede de ensino poderá fornecer os dados pessoais descritos no item 1.1', 'Os dados de uso (item 1.2) são coletados automaticamente pelo aplicativo']
+  const meiosDeContato = ['contato@alere.com.br', '+55 (11) 2094-5799']
+  const nomeEncarregado = 'Leandro Antoniazzi'
+  const cpfEncarregado = '269.028.628-93'
   const emailEncarregado = 'tecnologia@alereeditora.com.br'
   const dataUltimaAtualizacao = '27/11/2022'
-  
   //
-
 
   return (
     <Col xl={24} md={24} sm={24}>
@@ -96,10 +89,8 @@ const PoliticaDePrivacidade: React.FC = () => {
           <p>Em caso de incidentes de segurança que possa gerar risco ou dano relevante para você ou qualquer um de nossos usuários/clientes, comunicaremos aos afetados e a Autoridade Nacional de Proteção de Dados sobre o ocorrido, em consonância com as disposições da Lei Geral de Proteção de Dados.</p>
           <h3>7. Com quem seus dados podem ser compartilhados?</h3>
           <p>{`Tendo em vista a preservação de sua privacidade, a ${nomeEmpresarialSimplificado} não compartilhará seus dados pessoais com nenhum terceiro não autorizado. `}</p>
-          <p>{`Seus dados poderão ser compartilhados com nossos parceiros comerciais: ${nomeCompletoParceiroEmpresarial}, inscrito no CPF/CNPJ sob o nº ${cpfCnpjParceiroComercial}.`}</p>
+          <p>Seus dados poderão ser compartilhados com a gestão escolar ou da rede de ensino, assim como nossos fornecedores de tecnologia, infraestrutura e conteúdo digital.</p>
           <p>Estes recebem seus dados apenas na medida do necessário para a prestação dos serviços contratados e nossos contratos são orientados pelas normas de proteção de dados do ordenamento jurídico brasileiro.</p>
-          <p>Todavia, nossos parceiros têm suas próprias Políticas de Privacidade, que podem divergir desta. Recomendamos a leitura desses documentos, que você pode acessar aqui:</p>
-          <p>Política de Privacidade do nosso parceiro: <a href={politicaDePrivacidadeDoParceiroComercial.href}>{politicaDePrivacidadeDoParceiroComercial.link}</a>.</p>
           <p>Além disso, também existem outras hipóteses em que seus dados poderão ser compartilhados, que são:</p>
           <p>I – Determinação legal, requerimento, requisição ou ordem judicial, com autoridades judiciais, administrativas ou governamentais competentes.</p>
           <p>II – Caso de movimentações societárias, como fusão, aquisição e incorporação, de forma automática</p>
@@ -108,30 +99,17 @@ const PoliticaDePrivacidade: React.FC = () => {
           <p>Alguns dos terceiros com quem compartilhamos seus dados podem ser localizados ou ou possuir instalações localizadas em países estrangeiros. Nessas condições, de toda forma, seus dados pessoais estarão sujeitos à Lei Geral de Proteção de Dados e às demais legislações brasileiras de proteção de dados</p>
           <p>{`Nesse sentido, a ${nomeEmpresarialSimplificado} se compromete a sempre adotar eficientes padrões de segurança cibernética e de proteção de dados, nos melhores esforços de garantir e cumprir as exigências legislativas.`}</p>
           <p>Ao concordar com essa Política de Privacidade, você concorda com esse compartilhamento, que se dará conforme as finalidades descritas no presente instrumento.</p>
-          <h3>8. Cookies ou dados de navegação</h3>
-          <p>{`A ${nomeEmpresarialSimplificado} faz uso de Cookies, que são arquivos de texto enviados pela plataforma ao seu computador e que nele se armazenam, que contém informações relacionadas à navegação do site. Em suma, os Cookies são utilizados para aprimorar a experiência de uso.`}</p>
-          <p>Ao acessar nosso site e consentir com o uso de Cookies, você manifesta conhecer e aceitar a utilização de um sistema de coleta de dados de navegação com o uso de Cookies em seu dispositivo.</p>
-          <p>{`A ${nomeEmpresarialSimplificado} utiliza os seguintes Cookies: ${descricaoCookiesUtilizados}.`}</p>
-          <p>Você pode, a qualquer tempo e sem nenhum custo, alterar as permissões, bloquear ou recusar os Cookies. Todavia, a revogação do consentimento de determinados Cookies pode inviabilizar o funcionamento correto de alguns recursos da plataforma.</p>
-          <p>Para gerenciar os cookies do seu navegador, basta fazê-lo diretamente nas configurações do navegador, na área de gestão de Cookies. Você pode acessar tutoriais sobre o tema diretamente nos links abaixo:</p>
-          <p>Se você usa o <a href="https://support.microsoft.com/pt-br/help/17442/windows-internet-explorer-delete-manage-cookies" target="_blank" rel="noopener">Internet Explorer</a>.</p>
-          <p>Se você usa o <a href="https://support.mozilla.org/pt-BR/kb/gerencie-configuracoes-de-armazenamento-local-de-s" target="_blank" rel="noopener">Firefox</a>.</p>
-          <p>Se você usa o <a href="https://support.apple.com/pt-br/guide/safari/sfri11471/mac" target="_blank" rel="noopener">Safari</a>.</p>
-          <p>Se você usa o <a href="https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&amp;oco=1&amp;hl=pt-BR" target="_blank" rel="noopener">Google Chrome</a>.</p>
-          <p>Se você usa o <a href="https://support.microsoft.com/pt-br/help/4027947/microsoft-edge-delete-cookies" target="_blank" rel="noopener">Microsoft Edge</a>.</p>
-          <p>Se você usa o <a href="https://help.opera.com/en/latest/web-preferences/#cookies" target="_blank" rel="noopener">Opera</a>.</p>
-          <p>Você pode ter maiores informações sobre os Cookies que utilizamos e como eles funcionam na nossa Política de Cookies, disponível neste link <a href={politicaDeCookies.href}>{politicaDeCookies.link}</a>.</p>
-          <h3>9. Alteração desta Política de Privacidade</h3>
+          <h3>8. Alteração desta Política de Privacidade</h3>
           <p>A atual versão da Política de Privacidade foi formulada e atualizada pela última vez em: {dataUltimaAtualizacao}.</p>
           <p>Reservamos o direito de modificar essa Política de Privacidade a qualquer tempo, principalmente em função da adequação a eventuais alterações feitas em nosso site ou em âmbito legislativo. Recomendamos que você a revise com frequência.</p>
           <p>Eventuais alterações entrarão em vigor a partir de sua publicação em nosso site e sempre lhe notificaremos acerca das mudanças ocorridas.</p>
           <p>Ao utilizar nossos serviços e fornecer seus dados pessoais após tais modificações, você as consente.</p>
-          <h3>10. Responsabilidade</h3>
+          <h3>9. Responsabilidade</h3>
           <p>{`A ${nomeEmpresarialSimplificado} prevê a responsabilidade dos agentes que atuam nos processos de tratamento de dados, em conformidade com os artigos 42 ao 45 da Lei Geral de Proteção de Dados.`}</p>
           <p>Nos comprometemos em manter esta Política de Privacidade atualizada, observando suas disposições e zelando por seu cumprimento.</p>
           <p>Além disso, também assumimos o compromisso de buscar condições técnicas e organizativas seguramente aptas a proteger todo o processo de tratamento de dados.</p>
           <p>Caso a Autoridade Nacional de Proteção de Dados exija a adoção de providências em relação ao tratamento de dados realizado pela {nomeEmpresarialSimplificado}, comprometemo-nos a segui-las.</p>
-          <h4>10.1 Isenção de responsabilidade</h4>
+          <h4>9.1 Isenção de responsabilidade</h4>
           <p>Conforme mencionado no Tópico 6, embora adotemos elevados padrões de segurança a fim de evitar incidentes, não há nenhuma página virtual inteiramente livre de riscos. Nesse sentido, a {nomeEmpresarialSimplificado} não se responsabiliza por:</p>
           <p>I – Quaisquer consequências decorrentes da negligência, imprudência ou imperícia dos usuários em relação a seus dados individuais. Garantimos e nos responsabilizamos apenas pela segurança dos processos de tratamento de dados e do cumprimento das finalidades descritas no presente instrumento.</p>
           <p>Destacamos que a responsabilidade em relação à confidencialidade dos dados de acesso é do usuário.</p>
