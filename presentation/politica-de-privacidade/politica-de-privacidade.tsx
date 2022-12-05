@@ -4,7 +4,7 @@ import { Row, Col } from 'antd'
 
 const PoliticaDePrivacidade: React.FC = () => {
   // NOTE: Aqui são preenchidos os dados váriaveis da política de privacidade
-  const nomeEmpresarial = 'Alere Distribuição de Produtos e Serviços Educacionais LTDA'
+  const nomeEmpresarial = 'Alere Editora Distribuição de Produtos e Serviços Educacionais LTDA'
   const nomeEmpresarialSimplificado = 'Alere Editora'
   const cnpj = '29.884.158/0001-53'
   const dadosPessoais = ['Nome da criança (para que os professores e gestores escolares possam acompanhar o aprendizado e engajamento)', 'Escola, série e turma da criança (para direcionar o conteúdo correto e associar à professora correta)']
