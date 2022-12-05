@@ -116,7 +116,7 @@ const PoliticaDePrivacidade: React.FC = () => {
           <p>II – Ações maliciosas de terceiros, como ataques de hackers, exceto se comprovada conduta culposa ou deliberada da {nomeEmpresarialSimplificado}.</p>
           <p>Destacamos que em caso de incidentes de segurança que possam gerar risco ou dano relevante para você ou qualquer um de nossos usuários/clientes, comunicaremos aos afetados e a Autoridade Nacional de Proteção de Dados sobre o ocorrido e cumpriremos as providências necessárias.</p>
           <p>III – Inveracidade das informações inseridas pelo usuário/cliente nos registros necessários para a utilização dos serviços da {nomeEmpresarialSimplificado}; quaisquer consequências decorrentes de informações falsas ou inseridas de má-fé são de inteiramente responsabilidade do usuário/cliente.</p>
-          <h3>11. Encarregado de Proteção de Dados</h3>
+          <h3>10. Encarregado de Proteção de Dados</h3>
           <p>A {nomeEmpresarialSimplificado} disponibiliza os seguintes meios para que você possa entrar em contato conosco para exercer seus direitos de titular: {meiosDeContato.join(' ')}</p>
           <p>Caso tenha dúvidas sobre esta Política de Privacidade ou sobre os dados pessoais que tratamos, você pode entrar em contato com o nosso Encarregado de Proteção de Dados Pessoais, através dos seguintes canais:</p>
           <p>{nomeEncarregado} ({cpfEncarregado})</p>
