@@ -32,12 +32,12 @@ const items: MenuProps['items'] = [
     getItem('Manual do Professor', 'revisao-dos-saberes/manual-do-professor', <BookOutlined />),
     getItem('Proposta Pedagógica', 'revisao-dos-saberes/proposta-pedagogica', <ReconciliationOutlined />)
   ], 'group'),
-  getItem('Contatos', 'menuContact', null, [
+  getItem('Contatos', 'menuContato', null, [
     getItem('Contato', 'contatos/contato', <ContactsOutlined />),
     getItem('Desenvolvedores', 'contatos/desenvolvedor', <DatabaseOutlined />)
   ], 'group'),
-  getItem('Política', 'menuContact', null, [
-    getItem('Política de Privacidade', '', <ContactsOutlined />)
+  getItem('Política', 'menuPolitica', null, [
+    getItem('Política de Privacidade', 'privacidade', <ContactsOutlined />)
   ], 'group')
 ]
 
