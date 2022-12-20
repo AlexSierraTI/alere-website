@@ -31,16 +31,16 @@ const PoliticaDePrivacidade: React.FC = () => {
           <p>Nosso site coleta e utiliza alguns dados pessoais seus, de forma a viabilizar a prestação de serviços e aprimorar a experiência de uso.</p>
           <h4>1.1. Dados pessoais fornecidos pelo titular</h4>
           <ul className={style.listaDados}>
-            {dadosPessoais.map((item) => <li>{item}</li>)}
+            {dadosPessoais.map((item, idx) => <li key={idx + 'dp'}>{item}</li>)}
           </ul>
           <h4>1.2. Dados pessoais coletados automaticamente</h4>
           <ul className={style.listaDados}>
-            {dadosPessoaisAutomaticos.map((item) => <li>{item}</li>)}
+            {dadosPessoaisAutomaticos.map((item, idx) => <li key={idx + 'dpa'}>{item}</li>)}
           </ul>
           <h3>2. Como coletamos os seus dados?</h3>
           <p>Nesse sentido, a coleta dos seus dados pessoais ocorre da seguinte forma:</p>
           <ul className={style.listaDados}>
-            {comoColeta.map((item) => <li>{item}</li>)}
+            {comoColeta.map((item, idx) => <li key={idx + 'cc'}>{item}</li>)}
           </ul>
           <h4>2.1. Consentimento</h4>
           <p>{`É a partir do seu consentimento que tratamos os seus dados pessoais. O consentimento é a manifestação livre, informada e inequívoca pela qual você autoriza a ${nomeEmpresarialSimplificado} a tratar seus dados.`}</p>
@@ -52,19 +52,19 @@ const PoliticaDePrivacidade: React.FC = () => {
           <h3>3. Quais são os seus direitos?</h3>
           <p>{`A ${nomeEmpresarialSimplificado} assegura a seus usuários/clientes seus direitos de titular previstos no artigo 18 da Lei Geral de Proteção de Dados. Dessa forma, você pode, de maneira gratuita e a qualquer tempo:`}</p>
           <ul>
-            <li><strong>Confirmar a existência de tratamento de dados</strong>, de maneira simplificada ou em formato claro e completo.</li>
-            <li><strong>Acessar seus dados</strong>, podendo solicitá-los em uma cópia legível sob forma impressa ou por meio eletrônico, seguro e idôneo.</li>
-            <li><strong>Corrigir seus dados</strong>, ao solicitar a edição, correção ou atualização destes.</li>
-            <li><strong>Limitar seus dados</strong> quando desnecessários, excessivos ou tratados em desconformidade com a legislação através da anonimização, bloqueio ou eliminação.</li>
-            <li><strong>Solicitar a portabilidade de seus dados</strong>{`, através de um relatório de dados cadastrais que a ${nomeEmpresarialSimplificado} trata a seu respeito.`}</li>
-            <li><strong>Eliminar seus dados</strong> tratados a partir de seu consentimento, exceto nos casos previstos em lei.</li>
-            <li><strong>Revogar seu consentimento</strong>, desautorizando o tratamento de seus dados.</li>
-            <li><strong>Informar-se sobre a possibilidade de não fornecer seu consentimento</strong> e sobre as consequências da negativa.</li>
+            <li key={1}><strong>Confirmar a existência de tratamento de dados</strong>, de maneira simplificada ou em formato claro e completo.</li>
+            <li key={2}><strong>Acessar seus dados</strong>, podendo solicitá-los em uma cópia legível sob forma impressa ou por meio eletrônico, seguro e idôneo.</li>
+            <li key={3}><strong>Corrigir seus dados</strong>, ao solicitar a edição, correção ou atualização destes.</li>
+            <li key={4}><strong>Limitar seus dados</strong> quando desnecessários, excessivos ou tratados em desconformidade com a legislação através da anonimização, bloqueio ou eliminação.</li>
+            <li key={5}><strong>Solicitar a portabilidade de seus dados</strong>{`, através de um relatório de dados cadastrais que a ${nomeEmpresarialSimplificado} trata a seu respeito.`}</li>
+            <li key={6}><strong>Eliminar seus dados</strong> tratados a partir de seu consentimento, exceto nos casos previstos em lei.</li>
+            <li key={7}><strong>Revogar seu consentimento</strong>, desautorizando o tratamento de seus dados.</li>
+            <li key={8}><strong>Informar-se sobre a possibilidade de não fornecer seu consentimento</strong> e sobre as consequências da negativa.</li>
           </ul>
           <h3>4. Como você pode exercer seus direitos de titular?</h3>
           <p>{`Para exercer seus direitos de titular, você deve entrar em contato com a ${nomeEmpresarialSimplificado} através dos seguintes meios disponíveis:`}</p>
           <ul className={style.listaDados}>
-            {meiosDeContato.map((item) => <li>{item}</li>)}
+            {meiosDeContato.map((item, idx) => <li key={idx + 'mdc'}>{item}</li>)}
           </ul>
           <p>De forma a garantir a sua correta identificação como titular dos dados pessoais objeto da solicitação, é possível que solicitemos documentos ou demais comprovações que possam comprovar sua identidade. Nessa hipótese, você será informado previamente.</p>
           <h3>5. Como e por quanto tempo seus dados serão armazenados?</h3>
@@ -81,9 +81,9 @@ const PoliticaDePrivacidade: React.FC = () => {
           <p>Aplicamos essas ferramentas levando em consideração a natureza dos dados pessoais coletados, o contexto e a finalidade do tratamento e os riscos que eventuais violações gerariam para os direitos e liberdades do titular dos dados coletados e tratados.</p>
           <p>Entre as medidas que adotamos, destacamos as seguintes:</p>
           <ul>
-            <li>Apenas pessoas autorizadas têm acesso a seus dados pessoais</li>
-            <li>O acesso a seus dados pessoais é feito somente após o compromisso de confidencialidade</li>
-            <li>Seus dados pessoais são armazenados em ambiente seguro e idôneo.</li>
+            <li key={9}>Apenas pessoas autorizadas têm acesso a seus dados pessoais</li>
+            <li key={10}>O acesso a seus dados pessoais é feito somente após o compromisso de confidencialidade</li>
+            <li key={11}>Seus dados pessoais são armazenados em ambiente seguro e idôneo.</li>
           </ul>
           <p>{`A ${nomeEmpresarialSimplificado} se compromete a adotar as melhores posturas para evitar incidentes de segurança. Contudo, é necessário destacar que nenhuma página virtual é inteiramente segura e livre de riscos. É possível que, apesar de todos os nossos protocolos de segurança, problemas de culpa exclusivamente de terceiros ocorram, como ataques cibernéticos de hackers, ou também em decorrência da negligência ou imprudência do próprio usuário/cliente.`}</p>
           <p>Em caso de incidentes de segurança que possa gerar risco ou dano relevante para você ou qualquer um de nossos usuários/clientes, comunicaremos aos afetados e a Autoridade Nacional de Proteção de Dados sobre o ocorrido, em consonância com as disposições da Lei Geral de Proteção de Dados.</p>

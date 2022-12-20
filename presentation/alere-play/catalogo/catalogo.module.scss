@@ -1,0 +1,51 @@
+.catalogo_background {
+  background-color: #eeeeee !important;
+  height: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.corLaranja {
+  color: #fe5c31;
+}
+
+.corPreto {
+  color: black;
+}
+
+.titulo {
+  color: #ffb326;
+  font-size: 45px;
+  font-weight: bolder;
+  text-shadow:
+       3px 3px 0 #fce37f,
+     -1px -1px 0 #fce37f,  
+      1px -1px 0 #fce37f,
+      -1px 1px 0 #fce37f,
+       1px 1px 0 #fce37f;
+}
+
+.footer {
+  color: #ffb326;
+  font-size: 30px;
+  font-weight: bolder;
+  text-shadow:
+       3px 3px 0 #fce37f,
+     -1px -1px 0 #fce37f,  
+      1px -1px 0 #fce37f,
+      -1px 1px 0 #fce37f,
+       1px 1px 0 #fce37f;
+}
+
+.imagensLivro {
+  text-align: right;
+}
+
+.itensLivro ul {
+  list-style-type: none;
+  padding-left: 2%;
+  line-height: 1.3em;
+  height: 650px;
+  overflow-y: auto;
+  width: 400px;
+}

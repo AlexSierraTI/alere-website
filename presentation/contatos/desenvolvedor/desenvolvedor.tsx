@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './desenvolvedor.module.scss'
 import { Row, Col, Card } from 'antd'
-import { EnvironmentOutlined, PhoneOutlined, GlobalOutlined, MailOutlined } from '@ant-design/icons'
+import { PhoneOutlined, MailOutlined } from '@ant-design/icons'
 
 const Desenvolvedor: React.FC = () => {
   return (

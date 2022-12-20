@@ -26,6 +26,24 @@ const getItem = (
 }
 
 const items: MenuProps['items'] = [
+  getItem('Alere Play', 'menuAlerePlay', null, [
+    getItem('Início', 'alere-play', <HomeOutlined />),
+    getItem('Catálogo', 'alere-play/catalogo', <BookOutlined />, [
+      getItem('Livro digital - EI - 3 Anos', '1'),
+      getItem('Livro digital - EI - 4 Anos', '2'),
+      getItem('Livro digital - EI - 5 Anos', '3'),
+      getItem('Livro digital - EF - 1° Ano - Linguagem', '4'),
+      getItem('Livro digital - EF - 1° Ano - Matemática', '5'),
+      getItem('Livro digital - EF - 2° Ano - Linguagem', '6'),
+      getItem('Livro digital - EF - 2° Ano - Matemática', '7'),
+      getItem('Livro digital - EF - 3° Ano - Linguagem', '8'),
+      getItem('Livro digital - EF - 3° Ano - Matemática', '9'),
+      getItem('Livro digital - EF - 4° Ano - Linguagem', '10'),
+      getItem('Livro digital - EF - 4° Ano - Matemática', '11'),
+      getItem('Livro digital - EF - 5° Ano - Linguagem', '12'),
+      getItem('Livro digital - EF - 5° Ano - Matemática', '13'),
+    ])
+  ], 'group'),
   getItem('Revisão dos Saberes', 'menuRevisaoDosSaberes', null, [
     getItem('Início', 'revisao-dos-saberes', <HomeOutlined />),
     getItem('Livro do Estudante', 'revisao-dos-saberes/livro-do-estudante', <BookOutlined />),
@@ -48,7 +66,11 @@ type Props = {
 const MainLayout: React.FC<Props> = ({ page }) => {
   const router = useRouter()
   const onClick: MenuProps['onClick'] = (e) => {
-    router.push(`/${e.key}`)
+    if (e.keyPath && e.keyPath.length == 2) {
+      router.push(`/${e.keyPath[1]}?livro=${e.keyPath[0]}`)
+    } else {
+      router.push(`/${e.key}`)
+    }
   };
 
   return (
@@ -65,7 +87,7 @@ const MainLayout: React.FC<Props> = ({ page }) => {
               onClick={onClick}
               defaultSelectedKeys={['1']}
               defaultOpenKeys={['sub1']}
-              mode="inline"
+              mode="vertical"
               items={items} />
           </Row>
         </Col>

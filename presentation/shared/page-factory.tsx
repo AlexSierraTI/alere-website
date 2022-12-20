@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import React from 'react'
-import { RevisaoDosSaberesHome } from '../revisao-dos-saberes/inicio'
 import MainLayout from './main-layout'
 
 export type Params = {
