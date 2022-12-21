@@ -31,7 +31,7 @@ const Contato: React.FC = () => {
                   <GlobalOutlined />
                 </Col>
                 <Col>
-                  <a href='#'>www.alere.com.br</a>
+                  <a href='#'>www.alereeditora.com.br</a>
                 </Col>
               </Row>
               <Row justify='start' align='top' gutter={[5, 20]}>
@@ -39,7 +39,7 @@ const Contato: React.FC = () => {
                   <MailOutlined />
                 </Col>
                 <Col>
-                  <a href='mailTo:contato@alere.com.br'>contato@alere.com.br</a>
+                  <a href='mailTo:contato@alereeditora.com.br'>contato@alereeditora.com.br</a>
                 </Col>
               </Row>
             </Col>

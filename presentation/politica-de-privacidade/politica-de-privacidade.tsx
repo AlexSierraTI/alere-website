@@ -10,7 +10,7 @@ const PoliticaDePrivacidade: React.FC = () => {
   const dadosPessoais = ['Nome da criança (para que os professores e gestores escolares possam acompanhar o aprendizado e engajamento)', 'Escola, série e turma da criança (para direcionar o conteúdo correto e associar à professora correta)']
   const dadosPessoaisAutomaticos = ['Páginas dos livros digitais visualizadas', 'Acertos e erros nas questões dos livros gamificados', 'Finalizações de livros', 'Informações técnicas georeferenciadas do dispositivo que está acessando']
   const comoColeta = ['A escola ou rede de ensino poderá fornecer os dados pessoais descritos no item 1.1', 'Os dados de uso (item 1.2) são coletados automaticamente pelo aplicativo']
-  const meiosDeContato = ['contato@alere.com.br', '+55 (11) 2094-5799']
+  const meiosDeContato = ['contato@alereeditora.com.br', '+55 (11) 2094-5799']
   const nomeEncarregado = 'Leandro Antoniazzi'
   const cpfEncarregado = '269.028.628-93'
   const emailEncarregado = 'tecnologia@alereeditora.com.br'
