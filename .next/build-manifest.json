@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/QkMQUeu4j2hLNTNvgcOVx/_buildManifest.js",
-    "static/QkMQUeu4j2hLNTNvgcOVx/_ssgManifest.js"
+    "static/RLyINXratZWtIek_AfHhm/_buildManifest.js",
+    "static/RLyINXratZWtIek_AfHhm/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -55,7 +55,7 @@
       "static/chunks/882-7e07ff5614a0d96a.js",
       "static/chunks/239-05c533b56d2a8d3c.js",
       "static/css/93f5c7f4542ab9e5.css",
-      "static/chunks/pages/contatos/contato-74d5a0ae22f8e127.js"
+      "static/chunks/pages/contatos/contato-364f37c1d15579e4.js"
     ],
     "/contatos/desenvolvedor": [
       "static/chunks/webpack-6f6d2345a02dd8f3.js",
@@ -72,7 +72,7 @@
       "static/chunks/main-abafce5311b78c60.js",
       "static/chunks/882-7e07ff5614a0d96a.js",
       "static/css/9a20fe629512dfc5.css",
-      "static/chunks/pages/privacidade-1e9be1ae88c4be93.js"
+      "static/chunks/pages/privacidade-e256c25632c43250.js"
     ],
     "/revisao-dos-saberes": [
       "static/chunks/webpack-6f6d2345a02dd8f3.js",
